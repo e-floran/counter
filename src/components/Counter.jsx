@@ -4,9 +4,6 @@ function Counter() {
   // Déclare une nouvelle variable d'état, qu’on va appeler « count »
   // Déclare une fonction setCount qui permet de modifier la valeur de count
   const [count, setCount] = useState(0);
-  function handleSubmit(e) {
-    e.preventDefault();
-  };
 
   function handleChange(e) {
     setCount(parseInt(e.target.value));
